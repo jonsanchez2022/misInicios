@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI';
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    gap: 0.5em;
+	
+}
+/* 
+.search-container input{
+    font-size: 1em;
+    border: 3px solid #cc0000;
+    padding: 12px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+	display:inlie;
+}
+ */
+
+
+.pokedex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+	
+}
+
+.pokedex-container h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.pokedex-container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 150%;
+    height: auto;
+}
+
+.pokedex-container p {
+    text-align: center;
+    margin: 0;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+#logo{
+	width:20%;
+	margin-left:40%;
+}
+
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #F8F8FF;
+    border-radius: 30px;
+    padding: 10px;
+	border:solid 0.5px black;
+}
+.search_input {
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color: transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+.searchbar:hover > .search_input {
+    padding: 0 10px;
+    width: 320px;
+    caret-color: black;
+    transition: width 0.4s linear;
+}
+.searchbar:hover > .search_icon {
+    background: #FFFFF0;
+    color: black;
+	text-decoration:none;
+}
+.search_icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    text-decoration: none;
+}
