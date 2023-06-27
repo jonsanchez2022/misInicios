@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+}
+
+#contenedor-principal{
+    display: grid;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+
+
+#imagenPerson{
+    border-radius: 50%;
+    justify-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+#btn-left, #btn-right{
+    background-color: none;
+    border: none;
+    
+}
