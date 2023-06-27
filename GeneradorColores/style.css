@@ -1,0 +1,10 @@
+#main-container{
+    font-family: sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#generador{
+    border: 2px solid black;
+}
