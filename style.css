@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(images/click.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#contenedor-principal{
+    display: grid;
+    place-content: center;
+}
+
+h3{
+    font-family: monospace;
+    color: black;
+    text-shadow: red 2px 2px 2px;
+}
+
+#contenedor-contador{
+    border: 1px solid black;
+    height: 100px;
+    display: grid;
+    place-content: center;
+    font-size: 90px;
+    background-color: darkblue;
+    color: yellow;
+}
+
+#contenedor-botones{
+    display: grid;
+    place-content: center; 
+}
+
+#boton-principal, #boton-reiniciar{
+    font-weight: bold;
+    color:black
+}
+
